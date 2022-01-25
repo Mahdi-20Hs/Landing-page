@@ -76,15 +76,27 @@ body {
   color: #e5e7eb;
   margin-bottom: 15px;
 }
-
 .content button{
-  background-color: #3882f6;
-  color: white;
-  padding: 8px 16px;
   border: none;
-  border-radius: 5px;
+  background-color: transparent;
 }
-
+.content a{
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 3px;
+  padding: 5px 20px;
+  color: white;
+  font-weight: bold;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  display: inline-block;
+}
+.content a:hover{
+  background-color: white;
+  border: 1px solid white;
+  color: #3882f6;
+  transition-duration: 0.5s;
+}
 .info-2{
   display: flex;
   flex-direction: column;
@@ -180,8 +192,11 @@ body {
 .sign-up-content p{
   font-size: 16px;
 }
-
 .sign-up-content button{
+  background-color: transparent;
+  border: none;
+}
+.sign-up-content a{
   background-color: transparent;
   border: 1px solid white;
   border-radius: 3px;
@@ -189,9 +204,10 @@ body {
   color: white;
   font-weight: bold;
   transition-duration: 0.5s;
+  text-decoration: none;
 }
 
-.sign-up-content button:hover{
+.sign-up-content a:hover{
   background-color: white;
   color: #3882f6;
   transition-duration: 0.5s;
