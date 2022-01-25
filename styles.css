@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.header .logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header .nav{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  transition-duration: 0.3s;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+.nav a:hover{
+  background-color: #e5e7eb;
+  color: #1f2937;
+  transition-duration: 0.3s;
+}
+
+.content{
+  display: flex;
+  width: 70%;
+  margin-bottom: 80px;
+  gap: 36px;
+}
+
+.content img{
+  width: 400px;
+  height: auto;
+}
+
+.content h1{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.content p{
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 15px;
+}
+
+.content button{
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.info-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-2 .info-header{
+  width: 70%;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin: 50px;
+
+}
+
+.info-2 .cards{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.info-2 .card{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: auto;
+  gap: 10px;
+  text-align: center;
+  font-size: 16px;
+  
+
+}
+
+.quote{
+  
+  background-color: #e5e7eb;
+  
+}
+
+.quote-content{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 100px auto;
+}
+.quote .text{
+  font-size: 36px;
+  font-style:italic;
+  font-weight: 350;
+  color: #1f2937;
+}
+.quote .author{
+  align-self: flex-end;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.sign-up-box{
+  margin: 100px auto;
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 70%;
+  padding: 30px 80px;
+  
+}
+
+.sign-up-content{
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
+
+.sign-up-content .left{
+  flex: 3;
+}
+
+.sign-up-content .right{
+  flex: 1;
+  text-align: right;
+}
+
+
+.sign-up-content p{
+  font-size: 16px;
+}
+
+.sign-up-content button{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 5px 20px;
+  color: white;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+.sign-up-content button:hover{
+  background-color: white;
+  color: #3882f6;
+  transition-duration: 0.5s;
+}
+
+.footer{
+  text-align: center;
+  background-color: #1f2937;
+  padding: 30px;
+  color: white;
+  font-size: 12px;
+}
